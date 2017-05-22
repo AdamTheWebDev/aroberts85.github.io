@@ -8,9 +8,9 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  cursor: url(/Users/adamroberts/code/wdi/shoebill/proj/u1_project01_prompt/aroberts85.github.io/proj1ga/img/hammer.png), auto;
+  cursor: url(../img/hammer.png), auto;
   /*cursor: pointer;*/
-  background-image: url(/Users/adamroberts/code/wdi/shoebill/proj/u1_project01_prompt/aroberts85.github.io/proj1ga/img/swamp.png);
+  background-image: url(../img/swamp.png);
 }
 
 .lily{
@@ -19,7 +19,7 @@
   object-fit: contain;
   height: 240px;
   width: 200px;
-  background-image: url(/Users/adamroberts/code/wdi/shoebill/proj/u1_project01_prompt/aroberts85.github.io/proj1ga/img/lilyPad.png);
+  background-image: url(../img/lilyPad.png);
 
   background-repeat: no-repeat;
 }

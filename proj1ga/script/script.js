@@ -18,7 +18,7 @@ let lilyDiv = new Array();
 
 
 $(".lily").wrapAll ("<div id = 'gameBoard'></div>");//wrap gameboard around .lily
-$("<img src=/Users/adamroberts/code/wdi/shoebill/proj/u1_project01_prompt/aroberts85.github.io/proj1ga/img/shobilltoon.png></img>" ).appendTo(".lily"); //append shoebilldiv to lilydiv
+$("<img src= img/shobilltoon.png></img>" ).appendTo(".lily"); //append shoebilldiv to lilydiv
 $("img").addClass("shoebillToon");
 $("#gameBoard").wrapAll("<div id = 'scoreBoard'></div>")//create score display in new div
 $("<button> start</button>").appendTo("h1")
