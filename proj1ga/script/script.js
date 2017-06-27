@@ -60,6 +60,7 @@ $('.lilly').click(function(){
     if(lil.hasClass('active'))
     {
       lil.removeClass('active');
+      incrementScore();
       shoebillHit = true;
     }
 })
