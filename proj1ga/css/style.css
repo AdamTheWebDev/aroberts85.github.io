@@ -20,3 +20,55 @@
 .lilly:hover {
 
 }
+.active {
+	background-image: url("../img/shobilltoon.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+h1 {
+	text-align: center;
+	color: orange;
+	font-weight: bold;
+	font-size: 40px;
+	text-shadow: 3px 3px black;
+	text-decoration: underline;
+}
+
+h3 {
+	text-align: center;
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 3px 3px black;
+}
+
+h2 {
+	text-align: center;
+	color: orange;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px black;
+}
+
+h3 {
+	text-align: center;
+	color: red;
+	font-weight: bold;
+	font-size: 30px;
+	text-shadow: 2px 2px white;
+}
+
+input{
+	float: left;
+	border: 2px solid blue;
+	opacity: 0.9;
+}
+
+body {
+	background-image: url("../img/swamp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  margin-bottom: 0;
+}
