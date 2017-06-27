@@ -1,41 +1,22 @@
-#gameBoard{
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  background-repeat: no-repeat;
-  background-position: bottom;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  cursor: url(../img/hammer.png), auto;
-  /*cursor: pointer;*/
-  background-image: url(../img/swamp.png);
+.marginLess{
+	padding-top: 2px;
+	margin: 0px;
 }
 
-.lily{
-  float: left;
-  display: block;
-  object-fit: contain;
-  height: 240px;
-  width: 200px;
-  background-image: url(../img/lilyPad.png);
-
-  background-repeat: no-repeat;
+.gameboard {
+	width: 550px;
+	height: auto;
+	border: 1px solid white;
+	margin: auto;
 }
 
-img{
-  margin-left: 44px;
-  margin-top: 25px;
+.lilly {
+	height: auto;
+	width: auto;
+	border: 1px solid white;
+	float: left;
 }
-h1{
-  font-family: sans-serif;
-  background-color: #468df6;
-  margin: 0%;
-  font-size: -webkit-xxx-large;
-  background-position: -250px;
 
-}
-h1.button{
-  float:right;
+.lilly:hover {
+
 }
